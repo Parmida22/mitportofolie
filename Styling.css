@@ -1,7 +1,8 @@
 body {
-    background-color: #d0da88;
-    color: rgb(135 28 83 / 0.98);
-    h1 {
-        font-style: italic;
-    }
+    background-color: #FFBDC5;
+    color: #670626;
+}
+
+h1, h2, h3 {
+    font-family: "Didot", serif;
 }
