@@ -177,3 +177,38 @@ nav {
     color: #670626;
     font-size: 16px;
 }
+
+@media screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 40px;
+        margin: 50px 20px;
+    }
+
+    nav {
+        width: 200px;
+        font-size: 18px;
+    }
+
+    .gapyearex {
+        flex-direction: column;
+        align-items: center;
+        margin: 25px;
+    }
+
+    .firstgap img,
+    .secondgap img,
+    .third img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .about-me-h2,
+    .who-am-i,
+    .my-jouney h2,
+    .textintro p,
+    .work-experience h2,
+    .work-experience p {
+        margin: 25px;
+    }
+}
