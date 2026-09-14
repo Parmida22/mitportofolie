@@ -31,15 +31,42 @@ nav {
     color: #670626;
 }
 
-.socialslinks{
-    display: flex;
-    justify-content: flex-end;
-    margin: 10px 40px 0 0;
+.socialslinks1,
+.socialslinks2,
+.socialslinks3,
+.socialslinks4 {
+    position: absolute;
+    top: 25px;
 }
 
-.socialslinks img {
-    width: 50px;
-    height: 45px;
+.socialslinks1 {
+    right: 160px;
+}
+
+.socialslinks2 {
+    right: 110px;
+}
+
+.socialslinks3 {
+    right: 60px;
+}
+
+.socialslinks4 {
+    right: 10px;
+}
+
+.socialslinks2 img,
+.socialslinks3 img,
+.socialslinks4 img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.socialslinks1 img {
+    width: 80px;
+    height: 40px;
+
 }
 
 .about-me-h2 {
