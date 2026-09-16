@@ -182,7 +182,7 @@ nav {
 
     h1 {
         font-size: 40px;
-        margin: 50px 20px;
+        margin: 100px 20px 50px;
     }
 
     nav {
@@ -208,6 +208,7 @@ nav {
     .my-jouney h2,
     .textintro p,
     .work-experience h2,
+    .contacts,
     .work-experience p {
         margin: 25px;
     }
