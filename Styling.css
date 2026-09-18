@@ -31,39 +31,39 @@ nav {
     color: #670626;
 }
 
-.socialslinks1,
-.socialslinks2,
-.socialslinks3,
-.socialslinks4 {
+.socials-links1,
+.socials-links2,
+.socials-links3,
+.socials-links4 {
     position: absolute;
     top: 25px;
 }
 
-.socialslinks1 {
+.socials-links1 {
     right: 160px;
 }
 
-.socialslinks2 {
+.socials-links2 {
     right: 110px;
 }
 
-.socialslinks3 {
+.socials-links3 {
     right: 60px;
 }
 
-.socialslinks4 {
+.socials-links4 {
     right: 10px;
 }
 
-.socialslinks2 img,
-.socialslinks3 img,
-.socialslinks4 img {
+.socials-links2 img,
+.socials-links3 img,
+.socials-links4 img {
     width: 40px;
     height: 40px;
     object-fit: contain;
 }
 
-.socialslinks1 img {
+.socials-links1 img {
     width: 80px;
     height: 40px;
 
@@ -85,21 +85,21 @@ nav {
 
 }
 
-.my-jouney h2 {
+#my-jouney h2 {
     margin: 50px ;
     font-family: Didot;
     font-size: 30px;
 
 }
 
-.textintro p {
+.text-intro p {
     margin: 50px ;
     font-family: Didot;
     font-size: 20px;
 
 }
 
-.gapyearex {
+#gap-yearex {
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -110,76 +110,85 @@ nav {
     border-bottom: 2px solid #670626;
 }
 
-.secondgap img,
-.third img {
+.second-gap img,
+.third-gap img {
     width: 400px;
     height: 400px;
     object-fit: cover;
 }
-.firstgap img:hover,
-.secondgap img:hover,
-.third img:hover {
+.first-gap img:hover,
+.second-gap img:hover,
+.third-gap img:hover {
     transform: scale(1.5);
 }
 
-.firstgap img {
+.first-gap img {
     width: 500px;
     height: 400px;
     object-fit: cover;
 }
 
-.work-experience h2 {
+#work-experience h2 {
     margin: 50px ;
     font-family: Didot;
     font-size: 30px;
 
 }
 
-.work-experience p {
+#work-experience p {
     margin: 50px ;
     font-family: Didot;
     font-size: 20px;
-
 }
 
-.contacts {
+.educations {
+    margin: 50px;
+    font-family: Didot;
+}
+
+.educations li {
+    margin-bottom: 25px;
+}
+
+.educations > ul > li:last-child > ul {
+    margin-bottom: 15px;
+}
+
+#contacts {
     margin: 50px;
     padding: 25px 0;
     border-top: 2px solid #670626;
     border-bottom: 2px solid #670626;
     font-family: Didot;
-}
 
-.contacts > div:first-child {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 100px;
 }
 
-.contacts > div:first-child h4 {
+#contacts h4 {
     grid-column: 1 / -1;
-    font-size: 25px;
+    font-size: 20px;
     margin: 0 0 25px;
 }
 
-.contacts > div:first-child p {
+#contacts p {
     font-size: 16px;
     margin: 0 0 8px;
 }
 
-.contacts > div:first-child ul {
+#contacts ul {
     list-style: none;
     padding: 0;
     margin: 0 0 20px;
 }
 
-.contacts > div:first-child a {
+#contacts a {
     color: #670626;
     font-size: 16px;
 }
 
 @media screen and (max-width: 600px) {
-
     h1 {
         font-size: 40px;
         margin: 100px 20px 50px;
@@ -190,26 +199,31 @@ nav {
         font-size: 18px;
     }
 
-    .gapyearex {
+    #gap-yearex {
         flex-direction: column;
         align-items: center;
         margin: 25px;
     }
 
-    .firstgap img,
-    .secondgap img,
-    .third img {
+    .first-gap img,
+    .second-gap img,
+    .third-gap img {
         width: 300px;
         height: 300px;
     }
 
     .about-me-h2,
     .who-am-i,
-    .my-jouney h2,
-    .textintro p,
-    .work-experience h2,
-    .contacts,
-    .work-experience p {
+    #my-jouney h2,
+    .text-intro p,
+    #work-experience h2,
+    #contacts,
+    #work-experience p,
+    .educations {
         margin: 25px;
+    }
+
+    #contacts {
+        grid-template-columns: 1fr;
     }
 }
